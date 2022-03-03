@@ -14,6 +14,9 @@ input {
   border-radius: 15px;
   color: #dad8d8;
 }
+input:focus{
+  outline-color: #800000;
+}
 input::placeholder{
   color: #dad8d8;
 }
@@ -23,5 +26,6 @@ input::placeholder{
   width: 20px;
   height: 20px;
   left: 8px;
-  top: 35%;
+  top: 50%;
+  transform: translateY(-50%);
 }

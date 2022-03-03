@@ -1,8 +1,9 @@
 .main {
-  margin: 2rem auto; 
+  margin: 2rem auto;
   width: 60vw;
   min-width: 400px;
-  border: 1px black solid;
+  max-width: 800px;
+  border: none;
   padding: 5px;
-  box-shadow: 2px 2px 20px 1px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 20px 1px rgba(83, 20, 36, 0.75);
 }

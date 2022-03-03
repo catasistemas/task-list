@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #800000;
 }
 h1{
   font-size: 36px;
@@ -19,7 +20,7 @@ h2{
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #800000;
   padding: 40px 20px;
 }
 
