@@ -1,0 +1,27 @@
+.div-input{
+  padding: 10px 0px;
+  width: 30vw;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+input {
+  text-align: center;
+  width: 30vw;
+  font-size: 24px;
+  height: 36px;
+  border-radius: 15px;
+  color: #dad8d8;
+}
+input::placeholder{
+  color: #dad8d8;
+}
+.icon-search{
+  color: #800000;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 8px;
+  top: 35%;
+}

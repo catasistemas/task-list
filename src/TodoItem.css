@@ -1,0 +1,25 @@
+.TodoItem {
+  margin: 10px;
+  border: 1px green solid;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  height: 70px;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+}
+.icon {
+  cursor: pointer;
+}
+
+.icon-check {
+  position: absolute;
+  left: 12px;
+}
+.icon-delete {
+  position: absolute;
+  right: 12px;
+  top: -10px;
+}
