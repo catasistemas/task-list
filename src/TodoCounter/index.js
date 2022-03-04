@@ -1,10 +1,10 @@
 import React from "react";
 import "./TodoCounter.css";
-import logo1 from './imagenes/logo2.png'
+import logo1 from '../imagenes/logo2.png'
 
 
 
-function TodoCounter () {
+function TodoCounter ({totalTodos, completedTodos}) {
   return (
   <React.Fragment>
     <section className="section-title">
@@ -13,7 +13,7 @@ function TodoCounter () {
       </div>
       <div className="titles">
       <h1>CATA - TASK</h1>
-      <h2>Haz completado 2 de 3 tareas</h2>
+      <h2>Haz completado {completedTodos} de {totalTodos} tareas</h2>
       </div>
     </section>
   </React.Fragment>

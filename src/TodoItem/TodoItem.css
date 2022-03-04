@@ -46,5 +46,5 @@
 }
 .TodoItem--completed{
   text-decoration: line-through;
-  color: red;
+  background-color: rgb(228, 236, 190);
 }
