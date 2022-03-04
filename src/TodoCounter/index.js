@@ -1,10 +1,12 @@
 import React from "react";
 import "./TodoCounter.css";
 import logo1 from '../imagenes/logo2.png'
+import { TodoContext } from "../TodoContext";
 
 
 
-function TodoCounter ({totalTodos, completedTodos}) {
+function TodoCounter () {
+  const {totalTodos, completedTodos} = React.useContext(TodoContext);
   return (
   <React.Fragment>
     <section className="section-title">
