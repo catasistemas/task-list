@@ -13,8 +13,12 @@ function TodoForm() {
   const onKeyUp = (e) => {
     if (e.charCode === 13) {
       e.preventDefault();
-      addTodo(newTodoValue);
-      onCancel();
+      if(newTodoValue.length <= 0){
+        alert('No esta permitido agregar tareas vacias')
+      }else {
+        addTodo(newTodoValue);
+        onCancel();
+      }
     }
   };
 
@@ -39,7 +43,7 @@ function TodoForm() {
   return (
     <form
       onSubmit={onSubmit}
-      onKeyPress={onKeyUp}>
+      onKeyPress={onKeyUp}
       >
       <label>Escribe una nueva Tarea </label>
       <textarea
