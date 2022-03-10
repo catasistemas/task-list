@@ -16,6 +16,7 @@
   cursor: pointer;
   transform: rotate(0);
   transition: ease .3s;
+  z-index: 2;
 }
 .button:hover{
   transform: rotate(180deg);
